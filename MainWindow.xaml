@@ -1,0 +1,21 @@
+﻿<Window x:Class="NICESOC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NICESOC"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="Безымянный_png" Margin="-2,0,-2,-1" Source="Безымянный.png" Stretch="Fill"/>
+
+        <Button Click="zxc1" Height="25" Width="200" Background="Green" Margin="50,189,500,205">Информация о компании</Button>
+
+        <Button Click="zxc2" Height="25" Width="200" Background="Purple" Margin="50,250,500,50">Информация о компании</Button>
+
+        <Button Click="zxc3" Height="25" Width="200" Background="Yellow" Margin="470,192,115,202">Информация о компании</Button>
+
+        <Button Click="zxc4" Height="25" Width="200" Background="Blue" Margin="474,294,118,100">Информация о компании</Button>
+
+    </Grid>
+</Window>
