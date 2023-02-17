@@ -24,5 +24,11 @@ namespace NICESOC
         {
             InitializeComponent();
         }
+        private void zxc7(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new menu());
+
+        }
     }
+}
 }

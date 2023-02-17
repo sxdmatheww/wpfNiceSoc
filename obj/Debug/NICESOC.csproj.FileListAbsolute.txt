@@ -21,3 +21,5 @@ C:\Users\Администратор\source\repos\NICESOC\obj\Debug\NICESOC.cspro
 C:\Users\Администратор\source\repos\NICESOC\obj\Debug\NICESOC.csproj.CoreCompileInputs.cache
 C:\Users\Администратор\source\repos\NICESOC\obj\Debug\NICESOC.exe
 C:\Users\Администратор\source\repos\NICESOC\obj\Debug\NICESOC.pdb
+C:\Users\Администратор\source\repos\NICESOC\obj\Debug\menu.g.cs
+C:\Users\Администратор\source\repos\NICESOC\obj\Debug\menu.baml

@@ -9,6 +9,10 @@
       Title="Page3">
 
     <Grid>
-        
+        <Image x:Name="нормсок_фон4_jpg" Margin="-2,0,-2,-1" Source="нормсок фон4.jpg" Stretch="Fill"/>
+
+        <Button Click="zxc7" Height="25" Width="200" Background="Wheat" Margin="500,30,11,10">Назад</Button>
+
+        <Frame x:Name="MainFrame"></Frame>
     </Grid>
 </Page>

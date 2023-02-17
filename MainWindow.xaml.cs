@@ -23,45 +23,9 @@ namespace NICESOC
         public MainWindow()
         {
             InitializeComponent();
-
+            Manager.MainFrame = MainFrame;
+            MainFrame.Navigate(new menu());
         }
-        private void zxc1(object sender, RoutedEventArgs e)
-        {
-            MainWindow.Navigate(new Page1());
-        }
-
-        private static void Navigate(Page1 page1)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void zxc2(object sender, RoutedEventArgs e)
-        {
-            MainWindow.Navigate(new Page2());
-        }
-
-        private static void Navigate(Page2 page2)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void zxc3(object sender, RoutedEventArgs e)
-        {
-            MainWindow.Navigate(new Page3());
-        }
-
-        private static void Navigate(Page3 page3)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void zxc4(object sender, RoutedEventArgs e)
-        {
-            MainWindow.Navigate(new Page4());
-        }
-        private static void Navigate(Page4 page4)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
