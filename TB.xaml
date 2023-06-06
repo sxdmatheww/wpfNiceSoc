@@ -1,0 +1,31 @@
+﻿<Page x:Class="NICESOC.TB"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NICESOC"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TB">
+
+    <Grid>
+        <Image x:Name="нормсок_фон_jpg" Margin="-2,0,-2,-1" Source="Plastic-Bottles-Of-Assorted-Sweetened-Drinks.jpg" Stretch="Fill"/>
+
+
+        <TextBlock TextWrapping="Wrap" FontSize="30" Margin="10,10,0,0">Техника безопасности</TextBlock>
+        
+        
+        <TextBlock TextWrapping="Wrap" Margin="10,73,307,0">1. Необходимость ознакомления с правилами техники безопасности и охраны труда на предприятии, где проводится практика.</TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="10,108,338,0">2. Соблюдение инструкций по технике безопасности и охране труда на рабочем месте.</TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="10,143,0,0">3. Использование личной защитной экипировки при выполнении работ.</TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="10,158,373,0">4. Необходимость уведомления руководства об аварийных ситуациях на рабочем месте.</TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="10,191,400,0">5. Обязательное проведение инструктажей по технике безопасности и охране труда для всех стажеров.</TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="10,225,427,0">6. Соблюдение правил пожарной безопасности и наличие необходимых средств пожаротушения на рабочем месте.</TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="10,262,427,0">7. Запрещается работать в состоянии алкогольного или наркотического опьянения.</TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="10,296,427,0">8. Необходимость соблюдения порядка и чистоты на рабочем месте.</TextBlock>
+        <TextBlock TextWrapping="Wrap"></TextBlock>
+
+        <Button Click="zxc5675" Height="25" Width="200" Background="Wheat" Margin="535,360,65,64">Назад</Button>
+        <Frame x:Name="MainFrame" Navigated="MainFrame_Navigated"></Frame>
+    </Grid>
+</Page>

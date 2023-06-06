@@ -11,10 +11,16 @@
     <Grid>
         <Image x:Name="нормсок_фон_jpg" Margin="-2,0,-2,-1" Source="нормсок фон.jpg" Stretch="Fill"/>
 
+        <TextBlock TextWrapping ="Wrap" Margin="20,105,428,0" Height="346" VerticalAlignment="Top">К сожалению, несчастные случаи на производстве – не редкость. Самой распространенной причиной их возникновения является несоблюдение правил по технике безопасности и неправильная организация производства. Поэтому опасные зоны – это первое, на что стоит обратить внимание для профилактики несчастных случаев.</TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="20,213,433,0" >Для того чтобы разобраться с местоположением, расчетом границ и графическим/конструктивным выделением опасных зон, следует сначала ознакомиться с терминологией. Опасная зона – это такая область рабочего пространства, где существует высокий риск нанесения ущерба здоровью и жизни работников.</TextBlock>
 
 
-        <Button Click="zxc6" Height="25" Width="200" Background="Wheat" Margin="500,30,11,10">Назад</Button>
-        
-        <Frame x:Name="MainFrame"></Frame>
+
+        <MediaElement Source="C:\Users\zxcmotya\Desktop\NICESOC\для wpf\dz.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
+
+        <Button Click="zxc1232" Width="200" Margin="300,0,300,43" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Bottom">Roboflow</Button>
+        <Button Click="zxc6" Height="25" Width="200" Background="Wheat" Margin="570,0,0,42" VerticalAlignment="Bottom" HorizontalAlignment="Left">Назад</Button>
+
+        <Frame x:Name="MainFrame" Navigated="MainFrame_Navigated"></Frame>
     </Grid>
 </Page>

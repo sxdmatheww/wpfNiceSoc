@@ -47,5 +47,21 @@ namespace NICESOC
             Manager.MainFrame.Navigate(new Page4());
             // Manager.MainFrame = MainFrame;
         }
+
+        private void zxc10(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new Page5());
+            // Manager.MainFrame = MainFrame;
+        }
+        private void zxc11(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new Page6());
+            // Manager.MainFrame = MainFrame;
+        }
+        private void zxc12(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new Page7());
+            // Manager.MainFrame = MainFrame;
+        }
     }
 }

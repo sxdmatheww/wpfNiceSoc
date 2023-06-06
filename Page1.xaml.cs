@@ -27,14 +27,21 @@ namespace NICESOC
         }
 
 
-
-
-
         private void zxc6(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new menu());
 
         }
 
+        private void zxc1232(object sender, RoutedEventArgs e)
+        {
+            string url = "https://github.com/theAIGuysCode/yolov4-deepsort"; // Замените ссылкой на фактический URL вашего сайта
+            System.Diagnostics.Process.Start(url);
+        }
+
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
     }
 }

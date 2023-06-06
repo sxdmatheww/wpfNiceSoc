@@ -30,6 +30,10 @@ namespace NICESOC
             MainFrame.Navigate(new menu());
 
         }
+        private void zxc1236(object sender, RoutedEventArgs e)
+        {
+            string url = "https://github.com/Avar1tia/DeffectPy"; // Замените ссылкой на фактический URL вашего сайта
+            System.Diagnostics.Process.Start(url);
+        }
     }
-}
 }

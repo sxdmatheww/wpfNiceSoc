@@ -11,12 +11,16 @@
     <Grid>
         <Image x:Name="Безымянный_png" Margin="-2,0,-2,-1" Source="Безымянный.png" Stretch="Fill"/>
 
-        <Button Click="zxc1" Height="25" Width="200" Background="Green" Margin="50,189,500,205">Теория</Button>
+        <Button Click="zxc1" Width="200" Background="#C0C0C0" Margin="75,226,0,0" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top">Danger Zone</Button>
 
-        <Button Click="zxc2" Height="25" Width="200" Background="Purple" Margin="50,250,500,50">Практика</Button>
+        <Button Click="zxc2" Height="25" Background="#C0C0C0" Margin="527,184,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="200">Colors</Button>
 
-        <Button Click="zxc3" Height="25" Width="200" Background="Yellow" Margin="470,192,115,202">Отчет</Button>
+        <Button Click="zxc3" Height="26" Background="#C0C0C0" Margin="75,303,525,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200">Определение размеров</Button>
 
-        <Button Click="zxc4" Height="25" Width="200" Background="Blue" Margin="474,294,118,100">Проверка</Button>
+        <Button Click="zxc4" Height="24" Width="200" Background="#C0C0C0" Margin="527,226,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Контроль качества</Button>
+
+        <Button Click="zxc10" Width="200" Background="#C0C0C0" Margin="527,264,0,0" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top">QR-code</Button>
+        <Button Click="zxc11" Height="26" Width="200" Background="#C0C0C0" Margin="75,264,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Поиск деталей</Button>
+        <Button Click="zxc12" Width="200" Background="#C0C0C0" Margin="75,184,0,0" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top">СИЗ</Button>
     </Grid>
 </Page>

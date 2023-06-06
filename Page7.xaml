@@ -1,0 +1,29 @@
+﻿<Page x:Class="NICESOC.Page7"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NICESOC"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page7">
+
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="401*"/>
+                <ColumnDefinition Width="399*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="нормсок_фон2_jpg" Margin="-2,0,-2,-1" Source="нормсок фон2.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+
+
+            <TextBlock TextWrapping="Wrap" Margin="10,81,34,0">Техника безопасности – система организационных мероприятий и технических средств, направленных на предотвращение воздействия на работающих опасных производственных факторов, являющихся причиной травм или внезапного резкого ухудшения здоровья. Техника безопасности является частью охраны труда и включает такие мероприятия, как обучение и инструктаж работающих по вопросам безопасности труда, поддержание в технически безопасном состоянии зданий и сооружений, оснащение вновь создаваемого и эксплуатируемого производственного оборудования защитными и предохранительными устройствами, разработку средств коллективной и индивидуальной защиты работающих от воздействия опасных и вредных производственных факторов, а также организацию обеспечения этими средствами рабочих и служащих.</TextBlock>
+
+            <MediaElement Source="C:\Users\zxcmotya\Desktop\NICESOC\для wpf\сиз.mp4" Margin="372,0,0,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Left" Width="427" Grid.ColumnSpan="2" />
+            <Button Click="zxc1231" Width="200" Margin="300,0,300,43" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Bottom">Roboflow</Button>
+            <Button Click="zxc5674" Width="200" Background="Wheat" Margin="169,0,0,42" Grid.Column="1" HorizontalAlignment="Left" Height="25" VerticalAlignment="Bottom">Назад</Button>
+            <Button Click="zxc5679" Height="25" Background="Wheat" Margin="48,0,153,42" VerticalAlignment="Bottom">Техника безопасности</Button>
+            <Frame x:Name="MainFrame" Navigated="MainFrame_Navigated" HorizontalAlignment="Left" Width="800" Height="450" VerticalAlignment="Center" Grid.ColumnSpan="2"></Frame>
+        </Grid>
+    </Grid>
+</Page>
