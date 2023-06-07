@@ -16,7 +16,7 @@
 
 
 
-        <MediaElement Source="C:\Users\zxcmotya\Desktop\NICESOC\для wpf\dz.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
+        <MediaElement Source="dz.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
 
         <Button Click="zxc1232" Width="200" Margin="300,0,300,43" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Bottom">Roboflow</Button>
         <Button Click="zxc6" Height="25" Width="200" Background="Wheat" Margin="570,0,0,42" VerticalAlignment="Bottom" HorizontalAlignment="Left">Назад</Button>

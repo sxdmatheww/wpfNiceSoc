@@ -13,9 +13,10 @@
 
         <TextBlock TextWrapping="Wrap" Margin="10,105,447,0">QR — это сокращение от Quick Response, в переводе с английского —  «быстрый отклик». QR-код позволяет мгновенно получать доступ к данным. Например, чтобы открыть сайт или попасть в личный кабинет.</TextBlock>
 
-        <MediaElement Source="C:\Users\zxcmotya\Desktop\NICESOC\для wpf\qr.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
+        <MediaElement Name="zxc" Source="qr.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
 
         <Button Click="zxc9" Height="25" Width="200" Background="Wheat" Margin="570,0,0,42" VerticalAlignment="Bottom" HorizontalAlignment="Left">Назад</Button>
+
 
         <Frame x:Name="MainFrame"></Frame>
         <Button Click="zxc1237" Width="200" Margin="300,0,300,43" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Bottom">QR-code</Button>

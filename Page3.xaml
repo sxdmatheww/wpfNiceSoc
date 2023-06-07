@@ -14,7 +14,7 @@
         <TextBlock TextWrapping="Wrap" Margin="10,263,447,0">Для разрешения подобного рода проблем была разработана и внедрена в производство нейросеть сортирующая объекты по размеру</TextBlock>
 
 
-        <MediaElement Source="C:\Users\zxcmotya\Desktop\NICESOC\для wpf\size.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
+        <MediaElement Source="size.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
 
         <Button Click="zxc1234" Width="200" Margin="300,0,300,43" Height="25" VerticalAlignment="Bottom">Определение размеров</Button>
         <Button Click="zxc7" Height="25" Width="200" Background="Wheat" Margin="570,0,0,42" VerticalAlignment="Bottom" HorizontalAlignment="Left">Назад</Button>

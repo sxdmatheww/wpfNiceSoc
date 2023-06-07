@@ -14,7 +14,7 @@
         <TextBlock TextWrapping="Wrap" Margin="10,105,447,0">Цветовая сегментация или цветовая фильтрация широко используется в OpenCV для идентификации конкретных объектов / областей, имеющих определенный цвет. Наиболее широко используемым цветовым пространством является цветовое пространство RGB, его называют аддитивным цветовым пространством, поскольку три цветовых оттенка в сумме придают цвет изображению</TextBlock>
 
 
-        <MediaElement Source="C:\Users\zxcmotya\Desktop\NICESOC\для wpf\color.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
+        <MediaElement Source="color.mp4" Margin="0,0,1,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Right" Width="427" />
 
         <Button Click="zxc5" Height="25" Width="200" Background="Wheat" Margin="570,0,0,42" VerticalAlignment="Bottom" HorizontalAlignment="Left">Назад</Button>
         <Button Click="zxc1235" Width="200" Margin="300,0,300,43" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Bottom">Colors</Button>

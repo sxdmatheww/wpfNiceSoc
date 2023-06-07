@@ -59,3 +59,11 @@ C:\Users\zxcmotya\Desktop\NICESOC\obj\Debug\Page7.g.cs
 C:\Users\zxcmotya\Desktop\NICESOC\obj\Debug\Page7.baml
 C:\Users\zxcmotya\Desktop\NiceSoc\obj\Debug\TB.g.cs
 C:\Users\zxcmotya\Desktop\NiceSoc\obj\Debug\TB.baml
+C:\Users\zxcmotya\Desktop\NICESOC\bin\Debug\color.mp4
+C:\Users\zxcmotya\Desktop\NICESOC\bin\Debug\dz.mp4
+C:\Users\zxcmotya\Desktop\NICESOC\bin\Debug\qr.mp4
+C:\Users\zxcmotya\Desktop\NICESOC\bin\Debug\size.mp4
+C:\Users\zxcmotya\Desktop\NICESOC\bin\Debug\качество.mp4
+C:\Users\zxcmotya\Desktop\NICESOC\bin\Debug\сиз.mp4
+C:\Users\zxcmotya\Desktop\NICESOC\bin\Debug\шаблон.mp4
+C:\Users\zxcmotya\Desktop\NICESOC\obj\Debug\NICESOC_Content.g.cs

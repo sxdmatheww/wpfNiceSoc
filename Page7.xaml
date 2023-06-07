@@ -19,7 +19,7 @@
 
             <TextBlock TextWrapping="Wrap" Margin="10,81,34,0">Техника безопасности – система организационных мероприятий и технических средств, направленных на предотвращение воздействия на работающих опасных производственных факторов, являющихся причиной травм или внезапного резкого ухудшения здоровья. Техника безопасности является частью охраны труда и включает такие мероприятия, как обучение и инструктаж работающих по вопросам безопасности труда, поддержание в технически безопасном состоянии зданий и сооружений, оснащение вновь создаваемого и эксплуатируемого производственного оборудования защитными и предохранительными устройствами, разработку средств коллективной и индивидуальной защиты работающих от воздействия опасных и вредных производственных факторов, а также организацию обеспечения этими средствами рабочих и служащих.</TextBlock>
 
-            <MediaElement Source="C:\Users\zxcmotya\Desktop\NICESOC\для wpf\сиз.mp4" Margin="372,0,0,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Left" Width="427" Grid.ColumnSpan="2" />
+            <MediaElement Source="сиз.mp4" Margin="372,0,0,0" Height="254" VerticalAlignment="Center" HorizontalAlignment="Left" Width="427" Grid.ColumnSpan="2" />
             <Button Click="zxc1231" Width="200" Margin="300,0,300,43" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Bottom">Roboflow</Button>
             <Button Click="zxc5674" Width="200" Background="Wheat" Margin="169,0,0,42" Grid.Column="1" HorizontalAlignment="Left" Height="25" VerticalAlignment="Bottom">Назад</Button>
             <Button Click="zxc5679" Height="25" Background="Wheat" Margin="48,0,153,42" VerticalAlignment="Bottom">Техника безопасности</Button>
